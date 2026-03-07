@@ -16,15 +16,14 @@ num1=int(input("Enter the first number: "))
 num2=int(input("Enter the second number: "))
 
 def primeNum(num1,num2):
-    for num in range(num1,num2):
+    print(f"Prime numbers from {num1} to {num2} are:")
+    for num in range(num1,num2+1):
         if num > 1:
             for i in range(2,num):
                 if (num % i) == 0:
                     break
             else:
                 print(num)
-    print("There is no prime number between", num1, "and", num2)            
-print("Prime numbers between", num1, "and", num2, "are:")    
 primeNum(num1,num2)
 
 print("*********" * 10) 
