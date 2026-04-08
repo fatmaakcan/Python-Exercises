@@ -1,6 +1,6 @@
 list=["1","2","5a","10b","abc","10","50"]
 
-#finding the numbers in the list
+#Finding the numbers in the list
 
 for x in list:
     try:
@@ -27,7 +27,7 @@ while True:
 
 print("*****"*10)
 
-#Mini password validatio example
+#Mini password validation example
 
 turkish_characters="şçğüöıİ"
 
@@ -42,7 +42,7 @@ print("Valid password :) ")
 
 print("*****"*10)
 
-#factorial function example
+#Factorial function example
 
 def factorial(x):
     x=int(x)
